@@ -3,112 +3,144 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SakalioLabs | Agent-Managed Portfolio</title>
-  <meta name="description" content="SakalioLabs is a test organization with an Agent-managed digital lab for workflow and automation demos." />
+  <title>SakalioLabs | Agent Managed Lab</title>
+  <meta name="description" content="SakalioLabs is an agent-managed GitHub organization for automation, workflow experiments, and public engineering demos." />
+  <meta property="og:title" content="SakalioLabs" />
+  <meta property="og:description" content="An agent-managed lab for automation and GitHub workflow experiments." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sakaliolabs.github.io/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/assets/styles.css" />
 </head>
 <body>
-  <div class="bg-aurora"></div>
-  <main class="page">
-    <header class="hero glass">
-      <nav class="top-nav">
-        <div class="brand">SakalioLabs</div>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#capabilities">Capabilities</a>
-          <a href="#roadmap">Roadmap</a>
-          <a href="#contact">Contact</a>
-          <button id="themeToggle" class="btn-small" type="button" aria-label="Toggle theme">☀ / 🌙</button>
-        </div>
-      </nav>
-      <section class="hero-body">
-        <p class="eyebrow">AI Operation + GitHub Automation</p>
-        <h1>Welcome to <span class="gradient-text">SakalioLabs</span></h1>
-        <p class="hero-copy">
-          A fully agent-managed ecosystem for demos, experiments, and workflow design.
-          Built for speed, visibility, and reproducible updates.
-        </p>
-        <div class="cta">
-          <a class="btn-primary" href="#capabilities">Explore Capabilities</a>
-          <a class="btn-outline" href="https://github.com/SakalioLabs" target="_blank" rel="noreferrer">GitHub Organization</a>
-        </div>
-      </section>
-      <div class="floating-card">
-        <h3>Current status</h3>
-        <ul>
-          <li>✅ Organization profile page deployed</li>
-          <li>✅ Auto-doc landing pages live</li>
-          <li>✅ Pages scaffold complete</li>
-        </ul>
-        <p class="muted">Updated: $date</p>
+  <header class="hero" id="top">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="SakalioLabs home">
+        <span class="brand-mark" aria-hidden="true">SL</span>
+        <span>SakalioLabs</span>
+      </a>
+      <div class="nav-links">
+        <a href="#studio">Studio</a>
+        <a href="#systems">Systems</a>
+        <a href="#roadmap">Roadmap</a>
       </div>
-    </header>
+      <a class="nav-action" href="https://github.com/SakalioLabs" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
 
-    <section id="about" class="section glass">
-      <h2>About this site</h2>
-      <div class="grid two">
-        <div>
-          <h3>What is SakalioLabs?</h3>
-          <p>
-            An independent sandbox used for testing an AI agent's ability to deliver
-            software workflow tasks: docs, repos, and development operations.
-          </p>
-        </div>
-        <div>
-          <h3>Mission</h3>
-          <p>
-            Turn manual, repetitive platform tasks into transparent, reviewable,
-            and versioned routines through automation.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="capabilities" class="section glass">
-      <h2>Capabilities</h2>
-      <div class="cards">
-        <article class="card">
-          <h3>Automation Engine</h3>
-          <p>Issue handling, repo setup, and release docs created with consistent patterns.</p>
-        </article>
-        <article class="card">
-          <h3>Rapid Prototyping</h3>
-          <p>Quick landing pages and operational dashboards generated and iterated under one minute.</p>
-        </article>
-        <article class="card">
-          <h3>Governance-first</h3>
-          <p>Every update is auditable with commit history, timestamps, and explicit scope boundaries.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="roadmap" class="section glass">
-      <h2>Roadmap</h2>
-      <div class="timeline">
-        <div class="tl-item">
-          <strong>Phase 1</strong>
-          <span>Repository and profile modernization</span>
-        </div>
-        <div class="tl-item">
-          <strong>Phase 2</strong>
-          <span>Public landing page and deployment workflow</span>
-        </div>
-        <div class="tl-item">
-          <strong>Phase 3</strong>
-          <span>Custom domain + HTTPS + custom 404 / analytics hooks</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section glass compact">
-      <h2>Connect</h2>
-      <p>
-        You can route your new domain after registration with one CNAME record:
+    <div class="hero-inner">
+      <p class="kicker">Agent managed GitHub organization</p>
+      <h1>SakalioLabs</h1>
+      <p class="hero-copy">
+        A public lab for testing how autonomous agents plan, build, document, and maintain software workflows in the open.
       </p>
-      <pre><code>www.example.com -&gt; SakalioLabs.github.io</code></pre>
-      <p class="muted">Then tell me the domain and I will update the Pages CNAME configuration.</p>
+      <div class="hero-actions" aria-label="Primary actions">
+        <a class="button primary" href="https://github.com/SakalioLabs" target="_blank" rel="noreferrer">Open organization</a>
+        <a class="button secondary" href="#studio">View operating model</a>
+      </div>
+      <dl class="metrics" aria-label="Site metrics">
+        <div>
+          <dt>Mode</dt>
+          <dd>Agent run</dd>
+        </div>
+        <div>
+          <dt>Scope</dt>
+          <dd>Sandbox</dd>
+        </div>
+        <div>
+          <dt>Updated</dt>
+          <dd>2026-06-13</dd>
+        </div>
+      </dl>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro" id="studio">
+      <div class="section-heading">
+        <p class="kicker dark">Operating studio</p>
+        <h2>Built for fast, visible experiments.</h2>
+      </div>
+      <div class="intro-copy">
+        <p>
+          SakalioLabs exists to test agent-led development in a clean environment: no production assets, no hidden business data, just observable engineering work.
+        </p>
+        <p>
+          Every change should be legible from the outside: what changed, why it changed, and how it can be repeated or rolled back.
+        </p>
+      </div>
+    </section>
+
+    <section class="section band" id="systems">
+      <div class="section-heading compact">
+        <p class="kicker dark">Systems</p>
+        <h2>What the lab can operate.</h2>
+      </div>
+      <div class="capability-grid">
+        <article class="capability">
+          <span class="cap-index">01</span>
+          <h3>Repository setup</h3>
+          <p>Create profile pages, landing sites, documentation structures, and starter workflows with clean defaults.</p>
+        </article>
+        <article class="capability">
+          <span class="cap-index">02</span>
+          <h3>Documentation design</h3>
+          <p>Turn rough notes into readable public pages, GitHub profiles, runbooks, and project documentation.</p>
+        </article>
+        <article class="capability">
+          <span class="cap-index">03</span>
+          <h3>Workflow testing</h3>
+          <p>Exercise branch flows, Pages deployments, content updates, and repeatable delivery loops.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split" id="roadmap">
+      <div>
+        <p class="kicker dark">Roadmap</p>
+        <h2>Small steps, clean history.</h2>
+        <p class="lead">
+          The organization evolves through narrow, easy-to-review changes. The point is not spectacle; it is a reliable trail of agent work.
+        </p>
+      </div>
+      <ol class="timeline">
+        <li>
+          <span>Completed</span>
+          <strong>Profile pages</strong>
+          <p>Account and organization pages declare the agent-managed testing role.</p>
+        </li>
+        <li>
+          <span>Completed</span>
+          <strong>GitHub Pages</strong>
+          <p>The organization now has a public website served from a dedicated Pages repository.</p>
+        </li>
+        <li>
+          <span>Next</span>
+          <strong>Custom domain</strong>
+          <p>When the domain is ready, Pages can be connected through CNAME and HTTPS.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section domain" id="domain">
+      <div>
+        <p class="kicker dark">Custom domain</p>
+        <h2>Ready for your domain.</h2>
+      </div>
+      <div class="dns-panel" aria-label="DNS target">
+        <span>Recommended CNAME</span>
+        <code>www.your-domain.com -> SakalioLabs.github.io</code>
+      </div>
     </section>
   </main>
+
+  <footer class="footer">
+    <span>SakalioLabs</span>
+    <span>Agent managed experimental organization</span>
+    <a href="https://github.com/SakalioLabs" target="_blank" rel="noreferrer">github.com/SakalioLabs</a>
+  </footer>
+
   <script src="/assets/app.js"></script>
 </body>
 </html>
