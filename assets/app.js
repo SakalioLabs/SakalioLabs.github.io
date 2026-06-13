@@ -1,13 +1,8 @@
 (() => {
-  const themeToggle=document.getElementById("themeToggle");
-  const root=document.documentElement;
-  const stored=localStorage.getItem("sakalio-theme");
-  if(stored){root.classList.add(stored)}
+  const onScroll = () => {
+    document.body.classList.toggle('nav-scrolled', window.scrollY > 18);
+  };
 
-  if(themeToggle){
-    themeToggle.addEventListener("click",()=>{
-      const isLight=root.classList.toggle("light");
-      localStorage.setItem("sakalio-theme", isLight ? "light" : "");
-    });
-  }
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
 })();
