@@ -550,3 +550,62 @@ h1 {
     padding: 24px 0;
   }
 }
+
+
+/* mobile alignment correction */
+body {
+  overflow-x: hidden;
+}
+
+.hero-inner,
+.section,
+.footer,
+.band,
+.capability-grid,
+.section-heading.compact {
+  max-width: 100%;
+}
+
+.button {
+  max-width: 100%;
+}
+
+@media (max-width: 560px) {
+  .site-nav {
+    justify-content: center;
+    gap: 0;
+    padding: 8px 12px;
+  }
+
+  .brand span:last-child {
+    display: inline;
+  }
+
+  .nav-action {
+    display: none;
+  }
+
+  .hero {
+    min-height: 88svh;
+    background-position: center top;
+  }
+
+  .hero-inner {
+    width: calc(100% - 32px);
+  }
+
+  .hero-copy {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .button {
+    min-width: 0;
+    width: 100%;
+  }
+}
