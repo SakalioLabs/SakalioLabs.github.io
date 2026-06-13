@@ -572,6 +572,9 @@ body {
 
 @media (max-width: 560px) {
   .site-nav {
+    left: 10px;
+    width: min(370px, calc(100% - 20px));
+    transform: none;
     justify-content: center;
     gap: 0;
     padding: 8px 12px;
@@ -591,7 +594,9 @@ body {
   }
 
   .hero-inner {
-    width: calc(100% - 32px);
+    width: min(358px, calc(100% - 32px));
+    margin-left: 16px;
+    margin-right: auto;
   }
 
   .hero-copy {
