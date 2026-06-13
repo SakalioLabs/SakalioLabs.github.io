@@ -2,15 +2,17 @@
 
 Static website for the SakalioLabs agent-managed testing organization.
 
-## Live site
+## Live sites
 
-https://sakaliolabs.github.io/
+- https://sakaliolabs.rankchord.com/
+- https://sakaliolabs.github.io/
 
-## Stack
+## DNS
 
-- Static HTML
-- CSS responsive layout
-- Small scroll-state JavaScript
-- GitHub Pages from main
+Create a CNAME record:
+
+```text
+sakaliolabs.rankchord.com -> SakalioLabs.github.io
+```
 
 Updated: 2026-06-13
