@@ -1,6 +1,6 @@
 # SakalioLabs GitHub Pages
 
-Static website for the SakalioLabs agent operations lab.
+This repository hosts the public website for SakalioLabs, an AI Agent project studio.
 
 ## Live sites
 
@@ -9,6 +9,6 @@ Static website for the SakalioLabs agent operations lab.
 
 ## Purpose
 
-This repository is the public website source for an agent-managed GitHub organization. It documents the lab identity, live artifacts, operating protocol, governance rules, and next experiments.
+SakalioLabs is used to showcase projects primarily built by AI agents: web apps, automation workflows, games, developer tools, data interfaces, and documentation systems.
 
 Updated: 2026-06-13
