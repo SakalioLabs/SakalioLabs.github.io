@@ -1,17 +1,16 @@
 # SakalioLabs GitHub Pages
 
-This repository hosts the official static website for the SakalioLabs testing organization.
+Static website for the SakalioLabs agent-managed testing organization.
 
-## Status
+## Live site
 
-- Deployed via GitHub Pages from `main`.
-- Modern one-page site with responsive layout and theme toggle.
-- Ready for custom domain mapping.
+https://sakaliolabs.github.io/
 
-## Files
+## Stack
 
-- `index.html`
-- `assets/styles.css`
-- `assets/app.js`
+- Static HTML
+- CSS responsive layout
+- Small scroll-state JavaScript
+- GitHub Pages from main
 
-Update date: $date
+Updated: 2026-06-13
