@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SakalioLabs | Agent Operations Lab</title>
-  <meta name="description" content="SakalioLabs is a public agent operations lab for testing GitHub automation, workflow governance, and visible software delivery." />
-  <meta property="og:title" content="SakalioLabs Agent Operations Lab" />
-  <meta property="og:description" content="A public sandbox where an agent plans, builds, documents, verifies, and publishes software workflows." />
+  <title>SakalioLabs | AI Agent 项目工作室</title>
+  <meta name="description" content="SakalioLabs 是专门承载 AI Agent 开发项目的组织：从想法、代码、文档到部署，项目由 AI 代理完成并公开展示。" />
+  <meta property="og:title" content="SakalioLabs | AI Agent 项目工作室" />
+  <meta property="og:description" content="一个专门展示由 AI Agent 完整开发项目的 GitHub 组织。" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://sakaliolabs.rankchord.com/" />
   <meta property="og:image" content="https://sakaliolabs.rankchord.com/assets/sakalio-logo.png" />
@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" href="/assets/sakalio-logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Noto+Sans+SC:wght@400;500;700;800;900&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/assets/styles.css" />
 </head>
 <body>
@@ -26,133 +26,136 @@
         <span>SakalioLabs</span>
       </a>
       <div class="nav-links">
-        <a href="#control">Control</a>
-        <a href="#protocol">Protocol</a>
-        <a href="#artifacts">Artifacts</a>
-        <a href="#roadmap">Roadmap</a>
+        <a href="#purpose">定位</a>
+        <a href="#shelves">项目展架</a>
+        <a href="#standard">标准</a>
+        <a href="#launch">入口</a>
       </div>
       <a class="nav-action" href="https://github.com/SakalioLabs" target="_blank" rel="noreferrer">GitHub</a>
     </nav>
 
     <div class="hero-inner">
       <div class="hero-copy-block">
-        <p class="kicker">Public agent operations lab</p>
-        <h1>SakalioLabs</h1>
+        <p class="kicker">AI Agent Project Studio</p>
+        <h1>给 AI 代理做项目的公开工作室。</h1>
         <p class="hero-copy">
-          A visible testing ground where an AI agent creates repositories, ships profile pages, deploys GitHub Pages, binds domains, and leaves every decision traceable.
+          SakalioLabs 专门存放由 Agent 主导完成的开发项目：Web 应用、自动化工具、小游戏、实验产品、文档系统和部署样例。每个项目都应该有源码、说明、运行入口和可追踪的构建记录。
         </p>
         <div class="hero-actions" aria-label="Primary actions">
-          <a class="button primary" href="https://github.com/SakalioLabs" target="_blank" rel="noreferrer">Open organization</a>
-          <a class="button secondary" href="#control">Read the operating map</a>
+          <a class="button primary" href="https://github.com/SakalioLabs" target="_blank" rel="noreferrer">查看项目组织</a>
+          <a class="button secondary" href="#shelves">浏览项目类型</a>
         </div>
       </div>
 
-      <aside class="status-board" aria-label="Current lab status">
-        <div class="status-head">
-          <span class="pulse" aria-hidden="true"></span>
-          <span>Live Control</span>
-        </div>
-        <dl>
-          <div><dt>Domain</dt><dd>sakaliolabs.rankchord.com</dd></div>
-          <div><dt>Pages</dt><dd>GitHub Pages, HTTPS enabled</dd></div>
-          <div><dt>Operator</dt><dd>Sakalio-Ling agent account</dd></div>
-          <div><dt>Boundary</dt><dd>Test-only, no production assets</dd></div>
-        </dl>
+      <aside class="manifesto" aria-label="SakalioLabs manifesto">
+        <span class="label">Manifesto</span>
+        <p>这里不是空壳组织，也不是只放 README 的门面。</p>
+        <p>这里用来沉淀那些“从需求到交付，主要由 AI Agent 做出来”的真实开发项目。</p>
       </aside>
     </div>
   </header>
 
   <main>
-    <section class="section control" id="control">
+    <section class="section purpose" id="purpose">
       <div class="section-heading">
-        <p class="kicker dark">Control room</p>
-        <h2>What this organization actually contains.</h2>
-        <p>SakalioLabs is not a placeholder brand. It is a controlled workspace for proving whether an agent can operate a GitHub organization cleanly from identity to deployment.</p>
+        <p class="kicker dark">组织定位</p>
+        <h2>这里展示的不是公司介绍，而是 AI 做项目的能力边界。</h2>
       </div>
-      <div class="control-grid">
-        <article class="control-card">
-          <span>Identity</span>
-          <h3>Agent-visible ownership</h3>
-          <p>The organization and account profiles clearly state that work is performed by an agent in a dedicated test environment.</p>
+      <div class="purpose-grid">
+        <article>
+          <span>01</span>
+          <h3>Agent-first projects</h3>
+          <p>项目从需求理解、界面设计、代码实现、文档编写到部署上线，尽量由 AI 代理完成，人类负责方向和验收。</p>
         </article>
-        <article class="control-card">
-          <span>Delivery</span>
-          <h3>Pages to custom domain</h3>
-          <p>The public site is deployed from GitHub Pages, mapped to a verified subdomain, and kept in a normal repository.</p>
+        <article>
+          <span>02</span>
+          <h3>Public by default</h3>
+          <p>能公开的项目就公开：源码、README、演示地址、构建记录和项目状态都应该让后来的人看得懂。</p>
         </article>
-        <article class="control-card">
-          <span>Governance</span>
-          <h3>Traceable changes</h3>
-          <p>Content updates are made through commits with scoped messages, so the agent's work can be audited later.</p>
-        </article>
-        <article class="control-card">
-          <span>Safety</span>
-          <h3>Clean sandbox</h3>
-          <p>No production secrets, customer data, or business-critical assets belong in this org. That is the point: fast testing without hidden blast radius.</p>
+        <article>
+          <span>03</span>
+          <h3>Useful experiments</h3>
+          <p>不堆概念，不写空话。每个仓库都应该回答一个问题：这个 Agent 到底做出了什么可运行的东西？</p>
         </article>
       </div>
     </section>
 
-    <section class="section protocol" id="protocol">
-      <div class="section-heading narrow">
-        <p class="kicker dark">Agent protocol</p>
-        <h2>The operating loop is explicit.</h2>
+    <section class="section shelves" id="shelves">
+      <div class="section-heading compact">
+        <p class="kicker dark">项目展架</p>
+        <h2>未来的 AI 作品会按这些方向归档。</h2>
       </div>
-      <ol class="protocol-list">
-        <li><span>01</span><strong>Intake</strong><p>Convert a user request into a concrete repository, file, deployment, or documentation target.</p></li>
-        <li><span>02</span><strong>Shape</strong><p>Choose the smallest useful implementation that still looks intentional and can be extended.</p></li>
-        <li><span>03</span><strong>Ship</strong><p>Update the public artifact through GitHub commits, Pages builds, and profile repository conventions.</p></li>
-        <li><span>04</span><strong>Inspect</strong><p>Check the live site, DNS, HTTPS, screenshots, and obvious layout failures before calling it done.</p></li>
-        <li><span>05</span><strong>Record</strong><p>Leave behind README content, links, and status notes so future work has context.</p></li>
-      </ol>
+      <div class="shelf-grid">
+        <article><span>Web Apps</span><h3>AI 生成 Web 应用</h3><p>产品页、仪表盘、工具站、交互式前端和完整静态应用。</p></article>
+        <article><span>Agents</span><h3>自动化代理</h3><p>围绕 GitHub、文档、数据处理、任务执行构建的 Agent 工作流。</p></article>
+        <article><span>Games</span><h3>小游戏和仿真</h3><p>由 AI 设计规则、实现交互和打磨体验的浏览器游戏或实验。</p></article>
+        <article><span>DevTools</span><h3>开发者工具</h3><p>脚手架、CLI、模板、检查器、代码生成器和工程辅助工具。</p></article>
+        <article><span>Data</span><h3>数据与可视化</h3><p>把表格、接口或公开数据做成可读、可操作、可展示的界面。</p></article>
+        <article><span>Docs</span><h3>文档和知识库</h3><p>Agent 维护的说明书、项目手册、教程、运行日志和决策记录。</p></article>
+      </div>
     </section>
 
-    <section class="section artifacts" id="artifacts">
+    <section class="section standard" id="standard">
       <div class="section-heading">
-        <p class="kicker dark">Public artifacts</p>
-        <h2>Current things you can inspect.</h2>
+        <p class="kicker dark">收录标准</p>
+        <h2>一个项目要放进 SakalioLabs，至少要像个能被展示的作品。</h2>
       </div>
-      <div class="artifact-grid">
-        <a class="artifact" href="https://sakaliolabs.rankchord.com/" target="_blank" rel="noreferrer"><span>Website</span><strong>sakaliolabs.rankchord.com</strong><p>Custom-domain GitHub Pages site for the lab.</p></a>
-        <a class="artifact" href="https://github.com/SakalioLabs/.github/tree/main/profile" target="_blank" rel="noreferrer"><span>Organization Profile</span><strong>.github/profile</strong><p>The public GitHub organization landing README.</p></a>
-        <a class="artifact" href="https://github.com/Sakalio-Ling/Sakalio-Ling" target="_blank" rel="noreferrer"><span>Agent Profile</span><strong>Sakalio-Ling</strong><p>The profile repository for the agent account.</p></a>
-        <a class="artifact" href="https://github.com/SakalioLabs/SakalioLabs.github.io" target="_blank" rel="noreferrer"><span>Pages Repository</span><strong>SakalioLabs.github.io</strong><p>Source files, CNAME, logo asset, and site history.</p></a>
+      <div class="standard-list">
+        <div><strong>README</strong><span>说明项目是什么、怎么运行、谁适合看。</span></div>
+        <div><strong>Live Demo</strong><span>如果是前端或工具站，优先提供可访问的演示地址。</span></div>
+        <div><strong>Source Code</strong><span>代码结构清楚，提交历史能看出 Agent 的工作过程。</span></div>
+        <div><strong>Project Status</strong><span>标明是概念验证、可用版本、维护中还是归档。</span></div>
+        <div><strong>Agent Notes</strong><span>记录关键设计选择、限制、下一步可以让 Agent 做什么。</span></div>
       </div>
     </section>
 
-    <section class="section governance" id="governance">
+    <section class="section launch" id="launch">
+      <div class="section-heading compact">
+        <p class="kicker dark">当前入口</p>
+        <h2>第一批公开资产。</h2>
+      </div>
+      <div class="launch-grid">
+        <a class="launch-card featured" href="https://sakaliolabs.rankchord.com/" target="_blank" rel="noreferrer">
+          <span>Website</span>
+          <h3>SakalioLabs 官网</h3>
+          <p>这个站点本身就是一个 Agent 交付样例：品牌、页面、域名、README 和部署配置都由 Agent 维护。</p>
+        </a>
+        <a class="launch-card" href="https://github.com/SakalioLabs/SakalioLabs.github.io" target="_blank" rel="noreferrer">
+          <span>Repo</span>
+          <h3>Pages 源码仓库</h3>
+          <p>查看站点源码、品牌素材、CNAME 和页面迭代历史。</p>
+        </a>
+        <a class="launch-card" href="https://github.com/SakalioLabs/.github/tree/main/profile" target="_blank" rel="noreferrer">
+          <span>Profile</span>
+          <h3>组织资料页</h3>
+          <p>GitHub 组织主页展示内容，用于说明 SakalioLabs 的项目方向。</p>
+        </a>
+        <a class="launch-card" href="https://github.com/Sakalio-Ling" target="_blank" rel="noreferrer">
+          <span>Operator</span>
+          <h3>Agent 账号</h3>
+          <p>用于执行开发、维护、提交和部署测试的专用代理账号。</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section pipeline" id="pipeline">
       <div>
-        <p class="kicker dark">Runbook</p>
-        <h2>Rules that keep the lab useful.</h2>
+        <p class="kicker dark">项目流水线</p>
+        <h2>从一句想法到一个可展示仓库。</h2>
       </div>
-      <div class="runbook">
-        <pre><code>scope: public sandbox
-operator: agent account
-site: GitHub Pages
-custom_domain: sakaliolabs.rankchord.com
-assets: test-only
-change_policy: small commits, visible history
-security_policy: no production secrets</code></pre>
-      </div>
-    </section>
-
-    <section class="section roadmap" id="roadmap">
-      <div class="section-heading narrow">
-        <p class="kicker dark">Next experiments</p>
-        <h2>Useful work, not decoration.</h2>
-      </div>
-      <div class="roadmap-grid">
-        <article><span>Next</span><h3>Repository templates</h3><p>Create reusable starter structures for docs, static sites, and agent task logs.</p></article>
-        <article><span>Next</span><h3>Status page</h3><p>Add a small public status JSON and render recent deployed artifacts on the site.</p></article>
-        <article><span>Next</span><h3>Design system</h3><p>Extract the logo, colors, badges, and README sections into one reusable brand kit.</p></article>
-      </div>
+      <ol>
+        <li><span>Idea</span><strong>提出项目想法</strong><p>明确要做什么、给谁用、最终展示什么。</p></li>
+        <li><span>Build</span><strong>Agent 实现</strong><p>生成代码、页面、文档、配置和必要的部署流程。</p></li>
+        <li><span>Polish</span><strong>人工反馈迭代</strong><p>修掉丑、空、歪、没重点的问题，让作品像能展示的项目。</p></li>
+        <li><span>Publish</span><strong>公开沉淀</strong><p>放进组织仓库，写清 README，必要时部署到 Pages 或绑定域名。</p></li>
+      </ol>
     </section>
   </main>
 
   <footer class="footer">
     <span>SakalioLabs</span>
-    <span>Agent-managed experimental organization</span>
-    <a href="https://github.com/SakalioLabs" target="_blank" rel="noreferrer">github.com/SakalioLabs</a>
+    <span>AI Agent 项目工作室</span>
+    <a href="https://sakaliolabs.rankchord.com/">sakaliolabs.rankchord.com</a>
   </footer>
 
   <script src="/assets/app.js"></script>
